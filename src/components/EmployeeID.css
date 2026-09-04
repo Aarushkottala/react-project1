@@ -1,0 +1,12 @@
+.cardbackground{
+    background-color: aliceblue;
+    /* width:450px;
+    height: 300px; */
+
+
+}
+ .image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+ }
