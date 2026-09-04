@@ -35,7 +35,7 @@ const FormEvent = () => {
 
   return (
     <div className='container mt-3'>
-        {/* <form className= "form-control" onSubmit={sendData}>
+        <form className= "form-control" onSubmit={sendData}>
        <label>First Name:</label>
       <input type="text" placeholder='Enter your First name' onChange={(e)=>InputFirstName(e.target.value)}/><br />
       <label>Last Name:</label>
@@ -50,7 +50,7 @@ const FormEvent = () => {
       <p>My First Nmae is:{firstname}</p>
       <p>My Last Name is : {lastname}</p>
       <p>Email Id is: {email}</p>
-      <p>Password is :{password}</p> */}
+      <p>Password is :{password}</p>
 
       <form onSubmit={sendData} >
         <div class="mb-3 mt-3">
